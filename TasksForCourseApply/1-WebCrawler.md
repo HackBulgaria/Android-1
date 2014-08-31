@@ -1,5 +1,5 @@
 ### Make a simple website crawler (Pair Programming)
-Have you grown tired of looking for stuff on websites that simply seems is not in the navigation menu at all?  
+Have you grown tired of looking for stuff on websites and it simply seems that it is not there at all?  
 You look and point and click and suddenly...someone skypes you the link. It was there all along, how could you miss it?.  
 
 Today, you will mark the end of this.
