@@ -1,3 +1,6 @@
+**Important**.
+For the android course, you are required to solve **1 of the 3** tasks given.
+This is task2. 
 ### Globs 
 [Globs](http://docs.oracle.com/javase/tutorial/essential/io/fileOps.html#glob) are like regular expressions, but far simpler.  
 Note: there are different definions of a *glob*. We will use a subset of the link above.
