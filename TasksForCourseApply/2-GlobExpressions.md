@@ -1,8 +1,8 @@
 ### Globs 
-[Globs](http://docs.oracle.com/javase/tutorial/essential/io/fileOps.html#glob) are like regular expressions, but far simpler.
-Note: there are different definions of a glob. We will use a subset of the link below.
+[Globs](http://docs.oracle.com/javase/tutorial/essential/io/fileOps.html#glob) are like regular expressions, but far simpler.  
+Note: there are different definions of a *glob*. We will use a subset of the link above.
 
-Globs are usually used in path pattern matching.
+Globs are usually used in path pattern matching (`ls *.mp3` to see what I mean. There should be an equivalent in the Windows shell/powershell as well).
 Here are some example of globs:
 - `*.html` - every file in **the current folder**, whose name ends in .html
 - `*?.java` - every file with at least 1 character, ending in .java
