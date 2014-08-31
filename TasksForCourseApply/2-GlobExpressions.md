@@ -61,6 +61,6 @@ Example usages/tests of your class:
 
 ##### Instructions
 - Use the java programming language. Library usage is permitted, though not necessary.
-- It is not mandatory to implement all of operators given (`?`,`**`, and so on). We are perfectly happy to check (working) solutions with not all of the operators implemented. However -  more, the better :)
+- It is not mandatory to implement all of operators given (`?`,`**`, and so on). We are perfectly happy to check (working) solutions with not all of the operators implemented. However -  the more you implement, the better score you get :)
 - Your `Glob` class should be public (for the sake of automated testing).
 - A test-driven approach for this task will help you a lot!
