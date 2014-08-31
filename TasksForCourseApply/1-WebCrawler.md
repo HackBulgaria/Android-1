@@ -1,3 +1,5 @@
+**Important.** For the android course, you are required to solve 1 of the 3 tasks given (You are not required to solve all of them). This is task1. 
+
 ### Make a simple website crawler
 Have you grown tired of looking for stuff on websites and it simply seems that it is not there at all?  
 You look and point and click and suddenly...someone skypes you the link. It was there all along, how could you miss it?.  
@@ -14,6 +16,7 @@ What should your crawler do:
 - If they don't, **get all the links** from the URL given and repeat the algorithm.
 
 Hints/tips:
+- Use the java programming language.
 - Use a networking library of your choosing (if you need one at all).
 - **Don't go out of the website's scope** - if a link in `abv.bg` points to google, well, don't follow google, please... 
 - **Don't visit the same URL twice** 
