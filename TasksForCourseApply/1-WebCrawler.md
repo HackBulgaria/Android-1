@@ -2,18 +2,19 @@
 Have you grown tired of looking for stuff on websites and it simply seems that it is not there at all?  
 You look and point and click and suddenly...someone skypes you the link. It was there all along, how could you miss it?.  
 
-Today, you will mark the end of this.
+Today, you mark the end of this.
 
-Write a simple web crawler, that is receiving a URL **as a command line parameter** and a "needle" to search for (also as CMD param).
-Needle is text, usually a sentence.
+Write a simple web crawler, that receives a `URL` **as a command line parameter** and a `needle` to search for (also as CMD param).
+`needle` is text, usually a sentence.
 
-What your crawler should do is simple:
+What should your crawler do:
 - GET the contents of the URL received from the command line
 - Check if the contents contain "needle"
 - If they do, output the **URL that contains "needle"** and exit
 - If they don't, **get all the links** from the URL given and repeat the algorithm.
 
 Hints/tips:
+- Use a networking library of your choosing (if you need one at all).
 - **Don't go out of the website's scope** - if a link in `abv.bg` points to google, well, don't follow google, please... 
 - **Don't visit the same URL twice** 
 - **Use regular expressions** for getting links. 
@@ -43,13 +44,13 @@ Example usages/tests:
 	System.out.println("result :" + link.toString()); // => http://fmi.wikidot.com/anal-examination-1
 ```
 
-##### Bonus points:
+##### Bonus points (not mandatory):
 - Retain the full path to the result link, and not just the end link. See the example below.
 ```java
 URI startLocation = new URI("http://ebusiness.free.bg");
 	List<URI> path = crawler.crawl(startLocation, "Револвираща"); 
 	System.out.println("result :" + path.toString()); //=> http://ebusiness.free.bg/cards_bank_cards.html // => http://ebusiness.free.bg, http://ebusiness.free.bg/index.html, http://ebusiness.free.bg/cards_bank_cards.html
 ```
-- Add parallelisation optimazation.Work on several threads to achieve performance boost.
+- Add parallelisation optimazation. Work on several threads to achieve performance boost. We will be really pleased to see a multithreaded solution! 
 
 
