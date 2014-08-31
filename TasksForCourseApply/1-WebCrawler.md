@@ -1,4 +1,4 @@
-### Make a simple website crawler (Pair Programming)
+### Make a simple website crawler
 Have you grown tired of looking for stuff on websites and it simply seems that it is not there at all?  
 You look and point and click and suddenly...someone skypes you the link. It was there all along, how could you miss it?.  
 
