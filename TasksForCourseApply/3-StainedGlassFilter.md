@@ -19,7 +19,7 @@ Calculate the average color from all pixels in each region, and draw that region
 See? Simple.
 
 **Note:** Finding the closest point to another point is easy but the naive approach takes O(N) time. Use [K-D trees](http://en.wikipedia.org/wiki/K-d_tree) to reduce the complexity to O(log(N)).
-You can use any java library or code you want. Personally I used literary the [first goole result](http://home.wlu.edu/~levys/software/kd/) that popped out on my first search.
+You can use any java library or code you want. Personally I used literary the [first google result](http://home.wlu.edu/~levys/software/kd/) that popped out on my first search.
 K-D trees are simple so any library is as good as the next, so don't worry about it ;)
 
 ### The Formalaties!
