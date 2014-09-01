@@ -35,7 +35,7 @@ For example `java stainedGlassFilter input.jpg output.jpg 10000`
 
 ### The Goal!
 **Example input**
-![Heisenberg](images/input.jpg "Exmaple input")
+![Heisenberg](images/input.jpg "Say my name...")
 
 **Example output**
-![Heisenberg](images/output.jpg "Exmaple output")
+![Heisenberg](images/output.jpg "Say my name...")
