@@ -9,12 +9,14 @@ We need you to do better. No web interface, no black outlines and flexibility as
 
 ### The How?
 
-This task was inspired by the famous [Voronoi diagram](http://www.personal.kent.edu/~rmuhamma/Compgeometry/MyCG/CG-Applets/Images/vor_overlay_eg02.gif).
-As you can see there is a set of points on a 2D plane. Those points are the centers of their respective regions.
-But how are the regions' boundaries determined? If you take any point from a region you will notice that the closest center point to it is the one that is in the center of the region you chose that point from.
-This means that in order to determine which point is contained in which region all you have to do is find the nearest center point to that point.
-This is the way to do this filter. Generate a number of center points and determine the region for every pixel in the input image. 
-Calculate the average color from all pixels in each region, and draw that region onto the output image.
+This task was inspired by the famous [Voronoi diagram](http://www.personal.kent.edu/~rmuhamma/Compgeometry/MyCG/CG-Applets/Images/vor_overlay_eg02.gif).  
+
+There is a set of points on a 2D plane. Those points are centers of respective regions(1 region per point). Let's call those points the *center points*.  
+Every *center point* has a *region*.  
+How are the regions of the *center points* determined? If you take any point from a region, let's say point *A* you will notice that **the closest *center point* to A is the center point of the region from where A originates**.  
+This means that in order to determine which point is contained in which region all you have to do is find the nearest center point to that point. This is the way to do this filter. 
+
+Generate a number of *center points* and determine the *region* for every pixel in the input image.   Calculate the average color from all pixels belonging in a certain region, and draw every pixel in that region in the averaged color.
 
 See? Simple.
 
