@@ -34,3 +34,5 @@ Add an optional argument that determines how many regions the output image will 
 For example `java stainedGlassFilter input.jpg output.jpg 10000`
 
 ### The Goal!
+![Heisenberg](/images/input.jpg "Example input")
+![Heisenberg](/images/output.jpg "Exmaple output")
