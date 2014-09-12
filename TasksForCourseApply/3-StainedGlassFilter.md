@@ -33,4 +33,7 @@ Write a Java command line tool that takes one image as input and outputs that im
 Add an optional argument that determines how many regions the output image will be comprised of.
 For example `java stainedGlassFilter input.jpg output.jpg 10000`
 
-### The Goal!
+### What you should see
+[Before](http://i.imgur.com/aKw4OIV.jpg)  
+[After](http://i.imgur.com/P9ef1aS.jpg)
+
