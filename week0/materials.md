@@ -22,5 +22,5 @@ Building simple UI
 //Wherever it says anything about fragments, drop it - use my_activiy.xml in the /layout/ folder.  
 https://developer.android.com/training/basics/firstapp/building-ui.html
 
-Relative Layout tutorial/example
+Relative Layout tutorial/example  
 http://www.mkyong.com/android/android-relativelayout-example/
