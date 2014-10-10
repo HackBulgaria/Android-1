@@ -15,12 +15,12 @@ Everything  below the `EditText` should filled with the same color as entered. (
 Was it a penalty? Was it not?  
 It's not easy to decide.  
 
-Write an application, that has plays a *very specific video* (the `.mp4` file in this folder)
+Write an application, that has plays a *very specific video* (the `.mp4` file in this folder)  
 Draw several buttons, like the ones below, with the following functionality:
--If a user hits the **'Play'** button, the video starts/resumes playing **and the button 'play' image is replaced by a 'pause' image**  
--If a user hits the **'Pause'** button (seen after the user hits 'Play'), the video pauses and **the button image becomes 'play' again**
--If a user hits the **'Seek Left'/'Prev'** button, the video goes back 3 seconds **(pauses playing state)**
--If a user hits the **'Seek Right'/'Next'** button, the video goes forth 3 seconds **(pauses playing state)**
+- If a user hits the **'Play'** button, the video starts/resumes playing **and the button 'play' image is replaced by a 'pause' image**
+- If a user hits the **'Pause'** button (seen after the user hits 'Play'), the video pauses and **the button image becomes 'play' again**
+- If a user hits the **'Seek Left'/'Prev'** button, the video goes back 3 seconds **(pauses playing state)**
+- If a user hits the **'Seek Right'/'Next'** button, the video goes forth 3 seconds **(pauses playing state)**
 
 Hints:
 - Use the assets provided in this github folder
