@@ -24,5 +24,16 @@
 - - Toasting! 
 - - Placing TextViews, ImageViews, placing onClickListener and toasting on click
 
+------------------------------------------------------
+- (First ask how many people can show an image on Android) - demonstrate the resource usage with an ImageView for the ones who can't
+- layout_width, layout_height, layout_marginLeft, layout_marginTop, padding, etc. => draw a box for paddings/margins
+- View vs ViewGroups:
+- - draw the "View" hierarchy
+- - draw the "ViewGroup" heierarchy
+- - draw an example Visual tree
+- - TextView, Button, EditText (getText), ImageView, VideoView
+- Talk about remembering Views in Activity
+- Do the first LinearLayout example
+
 
  
