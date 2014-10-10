@@ -39,4 +39,3 @@ For example `java stainedGlassFilter input.jpg output.jpg 10000`
 
 **Example output**
 ![Heisenberg](images/output.jpg "Say my name...")
->>>>>>> 59131053b5a476496c05d619ba2436a457639a97
