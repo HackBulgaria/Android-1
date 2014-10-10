@@ -1,0 +1,7 @@
+- View classes and hierarchy
+- ViewGroup vs View
+- The visual (view) tree
+- layout_width, layout_height, id, match_parent, wrap_content, dp, sp
+- DP vs PX - basics
+- For the people in Georgi's group - ImageView, android:src
+- LinearLayout, FrameLayout, RelativeLayout
