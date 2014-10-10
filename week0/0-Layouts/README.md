@@ -20,6 +20,15 @@ Prepare an array of colors in a resource file. Check this [hackoverflow thread](
 Obtain the color array using `getResources().getIntArray(R.array.my_color_array);`, and when the user touches one of the flag colors, change that flag color to another from the array (Hint: keep a 'currentColor' pointer). This way you can achieve a number of flags, for instance [Russia's flag](http://upload.wikimedia.org/wikipedia/en/archive/f/f3/20120812153730!Flag_of_Russia.svg)
 
 
-
+##### Medium
 ![Medium](http://i.imgur.com/Zzr2QwWl.jpg)
+- Use [FrameLayout] (http://developer.android.com/reference/android/widget/FrameLayout.html) 
+- Use and combine `layout_marginTop` and `layout_marginBottom` properties.
+- Use exact dp values for width and height, e.g. `150dp` 
 
+##### Hard*
+![Hard](http://i.imgur.com/mgtulWR.png)
+- RelativeLayout, FrameLayout and/or LinearLayout/GridLayout
+- Think and draw how you would compose the layers.
+- You will need to use exact dp values.
+- Better finish this one at home. 
