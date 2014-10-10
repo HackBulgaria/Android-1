@@ -32,3 +32,10 @@ Obtain the color array using `getResources().getIntArray(R.array.my_color_array)
 - Think and draw how you would compose the layers.
 - You will need to use exact dp values.
 - Better finish this one at home. 
+
+##### Über
+![Über](http://i.imgur.com/MFjxSyU.png)
+![Über](http://i.imgur.com/V9Efq4V.png)
+- Let's see what you've got
+- Better finish this one at home. 
+
