@@ -7,6 +7,8 @@ The user enters a hexademical code of a color, e.g. `#FF0000` and clicks the but
 
 Everything  below the `EditText` should filled with the same color as entered. (Check the example above)  
 
+###### Bonus
+Update the color in real time, without clicking on the refresh button
 
 #### Help Ludogorets
 
