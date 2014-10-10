@@ -33,9 +33,12 @@ Obtain the color array using `getResources().getIntArray(R.array.my_color_array)
 - You will need to use exact dp values.
 - Better finish this one at home. 
 
-##### Über
+##### Über*
 ![Über](http://i.imgur.com/MFjxSyU.png)
 ![Über](http://i.imgur.com/V9Efq4V.png)
-- Let's see what you've got
+- Why weights?
+- What problem does `adjustViewBounds` solve?
+- What is gravity?
+- The image width is set to `100dp`
 - Better finish this one at home. 
 
