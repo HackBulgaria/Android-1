@@ -23,7 +23,7 @@ Obtain the color array using `getResources().getIntArray(R.array.my_color_array)
 ##### Medium
 ![Medium](http://i.imgur.com/Zzr2QwWl.jpg)
 - Use [FrameLayout] (http://developer.android.com/reference/android/widget/FrameLayout.html) 
-- Use and combine `layout_marginTop` and `layout_marginBottom` properties.
+- Use and combine `layout_marginTop` and `layout_marginLeft` properties.
 - Use exact dp values for width and height, e.g. `150dp` 
 
 ##### Hard*
