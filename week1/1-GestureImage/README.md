@@ -1,8 +1,12 @@
-#### Puzzle
+#### Gesture Image
 
-###### Preparing the pieces
-Make a cool puzzle game.
-![Puzzle](http://i.imgur.com/8V7E0ef.jpg)
+###### Description
+Insert an image which you can control with your fingers.
+The user has to be able to pan, rotate and scale the image.
+![original](http://i.imgur.com/ywpFCGK.png)
+![pan](http://i.imgur.com/cVqAkgg.png)
+![rotate](http://i.imgur.com/ppFhc8v.png)
+![scale](http://i.imgur.com/kwxIc65.png)
 
 What do you need to create a puzzle-like game for Android?
 First, you need to **choose an image**. You can either:
@@ -22,7 +26,7 @@ Once you've done that, create an **xml resource array** (just like the color arr
 **Use the `getDrawable` method to obtain the drawables.**
 Don't forget to recycle the typed array! (`ta.recycle()`)
 
-###### Building the layout
+###### Hints
 This time, as you don't know how many puzzle pieces they will be in advance, you won't be able to just type all the layouts in an xml file.   
 Create your views dynamically, in the `onCreate` method. [See the answers here](http://stackoverflow.com/questions/2395769/how-to-programmatically-add-views-to-views)  
 Use whatever layout you like the most and is easiest for your. Don't worry about performance for the moment.   
@@ -35,9 +39,9 @@ You should use an [ImageView](http://developer.android.com/reference/android/wid
 See [startDrag](http://developer.android.com/reference/android/view/View.html#startDrag(android.content.ClipData, android.view.View.DragShadowBuilder, java.lang.Object, int)), [onDragEvent](http://developer.android.com/reference/android/view/View.html#onDragEvent(android.view.DragEvent)) and [DragEvent](http://developer.android.com/reference/android/view/DragEvent.html)
 
 
-###### Finish the game. 
-- Implement a  random shuffling of the pictures
-- Implement an easy way to determine whether the puzzle is solved : )
+###### Bonus 
+- Detect if your finger/s is/are actually within the bounds of the image
+- Handle double tap gesture which resets the image into its original state
 
 
 
