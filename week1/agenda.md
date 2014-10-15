@@ -6,4 +6,4 @@
 - Histories in TouchEvent class
 - GestureManager stuff
 - ScaleGestureManager 
-
+- Drag and Drop API
