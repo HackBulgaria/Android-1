@@ -1,0 +1,6 @@
+- Animators vs Animations
+- ValueAnimator, ObjectAnimator,ViewPropertyAnimator, 
+- Interpolators - Linear, Decelarate, Accelarate Interpolatora, 
+- Material Design and styles and themes
+- Styles and themes - NoActionBar, Fullscreen, HoloLight, HoloDark
+- Immersive mode
