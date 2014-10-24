@@ -1,5 +1,0 @@
-- Canvas
-- Drawable
-- onDraw, invalidate
-- measure/layout/draw phase
-- custom views
