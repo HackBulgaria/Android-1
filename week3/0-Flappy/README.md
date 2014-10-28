@@ -1,6 +1,6 @@
 #### Flappy
 ![Flappy](http://i.imgur.com/0rN7qdX.png)
-Has everyone played/seen the **Flappy Bird** game? It was removed from both the PlayStore and the App store, but it was fun. (Check out it's clone - [FloppyBird](https://play.google.com/store/apps/details?id=floppy.bird))
+Has everyone played/seen the **Flappy Bird** game? It was removed from both the PlayStore and the App store, but it was fun. (Check out its clone - [FloppyBird](https://play.google.com/store/apps/details?id=floppy.bird))
 
  
 That's the task today - create a quick and hacky game for Android, using the primitives from last lecture and the resource folders.  
