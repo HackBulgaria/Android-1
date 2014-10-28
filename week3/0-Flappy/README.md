@@ -9,17 +9,17 @@ We will help you with a quick, quirky and ugly game architecture that you should
 The game is divided in several subtasks. You should do them sequentially. Also, **the game's due date is not until 08 of Novermber**.
 
 
-###### Task 0 - Create your GameActivity
+##### Task 0 - Create your GameActivity
 Create a standard (blank screen activity).
 
-###### Task 1 - Enable immersive mode.
+##### Task 1 - Enable immersive mode.
 Immersive mode is just a mode that hides the status bar and software buttons (if present) on your Android device while you play.  
 See [how to enable immersive mode](https://developer.android.com/training/system-ui/immersive.html)
 
-###### Task 2 - Create your custom view
-Create your own custom view, name it something like `DrawingView`. You can safely extend ImageView. (Note: It is usually better to extend either `SurfaceView` or `GLSurfaceView`, but we are keeping things as simple as possible for now)
+##### Task 2 - Create your custom view
+Create your own custom view, name it something like `DrawingView`. You can safely extend ImageView. (Note: It is usually better to extend either `SurfaceView` or `GLSurfaceView`, but we are keeping things as simple as possible for now). If you have no idea what a *custom* view is, what a `Canvas` is or what do `onDraw, onLayout, onMeasure` methods do, ask away. You will not be able to progress further and complete the game without grasping these methods.
 
-###### Task 3 - Start your background music!
+##### Task 3 - Start your background music!
 There should be an .mp3 file here. Copy it in your `/res/raw` resource folder. If you don't have a `raw` folder, create one.   
 Refer to [this android document](http://developer.android.com/guide/topics/media/mediaplayer.html) when you implement the background music for your game : )  
 
@@ -27,7 +27,7 @@ Refer to [this android document](http://developer.android.com/guide/topics/media
 
 **Gotcha:** Do not attempt to start music playback before `onCreate` has finished. Use in `onResume` or later. See [Activity.runOnUiThread](http://developer.android.com/reference/android/app/Activity.html#runOnUiThread(java.lang.Runnable)) 
 
-###### Task 4 - Initiallize a Game Clock
+##### Task 4 - Initiallize a Game Clock
 The **Game Clock** is essentially just something that calls your methods every **16ms**.   
 Why exactly 16? Because we want 60 frames per **second**. (1 second = 1000ms, 1000ms/60fps = one frame every 16 milliseconds).
 
@@ -85,7 +85,7 @@ Last, about your custom view class. **It should also be subscribed to the GameCl
 - `invalidate()` itself (this triggers redraw).
 
 
-###### Task 5 - implement a repetitive background
+##### Task 5 - implement a repetitive background
 You know when you play games and the background moves to the left? (see [FloppyBird](https://play.google.com/store/apps/details?id=floppy.bird)'s video for an example). You know it is not an endless background, right? We can implement it here with a simple bitmap and translation - when our `GameClock` ticks, we just do a `translation-=10` for instance. 
 - Careful, your `Math.abs(translation)` should not be bigger than your `backgroundBitmap.getWidth()`.
 - When your background slides out of view, you need to start drawing it again : )
