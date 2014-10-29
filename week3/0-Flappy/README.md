@@ -25,6 +25,8 @@ Refer to [this android document](http://developer.android.com/guide/topics/media
 
 **Note:** As any anoying clumsy game ever made, your music must of course repeat itself when it finishes. See [OnCompletionListener](http://developer.android.com/reference/android/media/MediaPlayer.OnCompletionListener.html) and `MediaPlayer.setOnCompletionListener...` methods.
 
+**Edit:** Better use the `setLooping` method on `MediaPlayer` instead of `setOnCompletionListener`...
+
 **Gotcha:** Do not attempt to start music playback before `onCreate` has finished. Use in `onResume` or later. See [Activity.runOnUiThread](http://developer.android.com/reference/android/app/Activity.html#runOnUiThread(java.lang.Runnable)) 
 
 ##### Task 4 - Initiallize a Game Clock
