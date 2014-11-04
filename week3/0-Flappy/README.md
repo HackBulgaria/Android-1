@@ -95,4 +95,28 @@ You know when you play games and the background moves to the left? (see [FloppyB
 - If you still do not understand this subtask, ask me and I will draw you an example on our board : )
 
 
-##### To be continued : )
+##### Task 6 - Game Over detection
+Detect when the flappy (what does that word even mean) bird falls **out of the screen**. 
+
+If a the bird hits the bottom of the screen, toast "Game Over!" and start over :)
+
+##### Task 6.1 - Game Over through collision
+Detect when the bird collides with an obstacle - toasting "Game Over!" and starting the game all over : )
+
+##### Task 7 - Score
+Count the score **as time goes by - the higher time the player has played the game, the better score he has** :) We will need this later through the course!  
+Hint: You can count the score in the `DrawView`/`GameView`, and first you can toast it on game over, to see you count correctly.   
+
+After that, you can createa a `Drawable` class that is responsible for drawing the score and simply add it to `onDraw(Canvas c)` in your custom view : )
+
+##### Task 8 - Collision sound 
+When the **bird crashes** - play a horrible sound for the user!   
+Hint: Detect the colission in your custom view, but don't handle it there. 
+Instead, you can set your activity to implement your special `ColisionListener` interface, your custom view to have a field reference to it, and and call an `onCollision` method whenever a colision is detected.  
+From the activity, you can simply play a sound on every collision : )
+
+##### Task 9* - Implement increasing difficulty as time goes on (bonus)
+Make the game harder for the player when as the **game goes on**
+
+##### Task 10* - Smoother non-linear animations 
+
