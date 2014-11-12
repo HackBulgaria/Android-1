@@ -37,6 +37,14 @@ Server and calls location:  http://95.111.103.224:8080/Flappy/scores
 
 - Both fragments are contained in the same activity
 - Only one fragment is visible at a time
+- There are several ways to do REST on Android 
+- - You can use the HTTP Connection components => see http://stackoverflow.com/questions/3649814/android-httpput-example-code
+- - You can use apache's `HttpClient` library (integrated in Android) => see http://developer.android.com/reference/org/apache/http/client/methods/HttpPut.html, http://hc.apache.org/httpclient-3.x/methods/put.html.
+- - Help for HttpClient (you may need this sentence):  
+
+A **Client** executes a **HttpMethod** (HttpPut, for instance). The **execution** returns a **HttpResponse** which has an **Enity** which has **content**, which is the string that the server returned to you you.  
+
+If you want to **make a server call with a body**, your **HttpMethod** should have an **Entity** set, which should be the content you want to send to the server. (You know, like for example, JSON)
 
 ###### Bonus (easy)
 - Do some cool transition between the switching of the fragments
