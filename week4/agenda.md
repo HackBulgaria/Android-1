@@ -1,0 +1,1 @@
+- Framgents instead of complicated ViewGroups
