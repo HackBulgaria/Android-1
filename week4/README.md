@@ -14,3 +14,12 @@ Try to answer the following questions:
 - What is a `FragmentManager`? What is a `FragmentTransaction`?
 - How would a `Fragment` communicate with it's host `Activity`?
 - Should Fragment A **know** about Fragment B? If not, how would they communicate?
+
+#### AsyncTasks
+Easily manage both background and UI calculations:
+- [AsyncTask reference](http://developer.android.com/reference/android/os/AsyncTask.html)
+- [AsyncTask tutorial](http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html)
+
+Try to answer the following questions:
+- How would you implement AsyncTask yourself?
+- What would you use AsyncTask for?
