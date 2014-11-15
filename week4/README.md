@@ -19,7 +19,9 @@ Try to answer the following questions:
 Easily manage both background and UI calculations:
 - [AsyncTask reference](http://developer.android.com/reference/android/os/AsyncTask.html)
 - [AsyncTask tutorial](http://www.vogella.com/tutorials/AndroidBackgroundProcessing/article.html)
+- [AsyncTask retain configuration change](http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html)
 
 Try to answer the following questions:
 - How would you implement AsyncTask yourself?
 - What would you use AsyncTask for?
+- How can an AsyncTask cause a leak?
