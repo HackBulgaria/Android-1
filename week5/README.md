@@ -22,7 +22,7 @@ http://developer.android.com/reference/android/support/v4/view/ViewPager.html
 
 
 ##### Try to answer the following questions:
-- For instance you make a `getRegisteredUsers()` API call to your website. It will return a `List<User>`. You don't know how many users. How would you visualize them?
+- You make a `getRegisteredUsers()` API call to your website. It will return a `List<User>` - all the users regsitered. You don't know in advance how many are they. How would you visualize them?
 - How do `ListView`'s work on Android? Why can we scroll down and down and down through thousands of records (e.g. check your call logs) without any hiccup or gargabe collection? How does this happen?
 - What is the purpose of the `getView(...)` method in Android? Why does it return a `View`. Do we need this method? Can't we just return `null`? 
 - Why makes Android's adapters like a "Man in the middle"? 
