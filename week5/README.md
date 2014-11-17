@@ -1,9 +1,9 @@
 ### ListViews, Adapters and ViewPager ###
 
 ##### ListView and adapter- guide and example  
-http://developer.android.com/guide/topics/ui/layout/listview.html  
-(The example here accesses and shows all the contacts - neat, huh?)
-(More basic example here - http://androidexample.com/Create_A_Simple_Listview_-_Android_Example/index.php?view=article_discription&aid=65&aaid=90 )
+http://developer.android.com/guide/topics/ui/layout/listview.html 
+(The example here accesses and shows all the contacts - neat, huh?)  
+(More basic example here - http://androidexample.com/Create_A_Simple_Listview_-_Android_Example/index.php?view=article_discription&aid=65&aaid=90 )   
 (Even more basic example here - http://www.java-samples.com/showtutorial.php?tutorialid=1516 )
 
 ##### Adapters, ConvertView, recycling
