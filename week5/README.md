@@ -27,4 +27,4 @@ http://developer.android.com/reference/android/support/v4/view/ViewPager.html
 - What is the purpose of the `getView(...)` method in Android? Why does it return a `View`. Do we need this method? Can't we just return `null`? 
 - Why makes Android's adapters like a "Man in the middle"? 
 - What is is a `convertView`? Why should we care about `convertView`?
-- What is ViewPager usually used for?  
+- What is `ViewPager` usually used for?  
