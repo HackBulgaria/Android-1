@@ -1,7 +1,7 @@
 #### Expense List
 
 ###### Description
-[cash](http://i.imgur.com/T1p7FJd.png)
+![Cash](http://i.imgur.com/T1p7FJd.png)
 Create an expense manager app. The user has to be able to view, add and delete his expenses.
 
 ###### Details:
