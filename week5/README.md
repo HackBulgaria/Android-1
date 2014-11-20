@@ -28,3 +28,26 @@ http://developer.android.com/reference/android/support/v4/view/ViewPager.html
 - Why makes Android's adapters like a "Man in the middle"? 
 - What is is a `convertView`? Why should we care about `convertView`?
 - What is `ViewPager` usually used for?  
+
+
+### Rotation, Intents, Multiple Activities, ApplicationContext
+
+[All you need to know about configuration changes in Android (rotation)](http://developer.android.com/guide/topics/resources/runtime-changes.html)
+- What would you use `onSaveInstanceState` for? 
+- When should you override `onConfigurationChanged`?
+
+[What is a "configuration change"?](http://developer.android.com/guide/topics/manifest/activity-element.html#config) 
+- Why is it called `onConfigurationChanged` instead of just `onDeviceRotated`? 
+
+[What is an intent?](http://developer.android.com/reference/android/content/Intent.html)
+- What is the differnce between `action` and `data` (as Intent members)?
+- What is an **Intent Resolution**? 
+- Write down some example `ACTION`'s provided by the Android system
+
+[On Activities](http://developer.android.com/guide/components/activities.html)
+- How can you start another activity?
+- When would `onActivityResult` be called? What does the `startActivityForResult` method mean? 
+
+[On ApplicationContext](http://developer.android.com/reference/android/app/Application.html) (not the Spring one :D )
+- What is this used for? 
+- Try to figure out a use case where you will need an ApplicationContext

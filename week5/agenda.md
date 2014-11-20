@@ -13,3 +13,6 @@
 - http://www.edureka.co/blog/wp-content/uploads/2013/03/adapters.jpg
 - ViewPager
 - PagerADapter
+- Bootstrap: Show them how to show "A,B,C" using list view and ArrayAdapter
+- Bootstrap: show them how to get the files from the public `Pictures` folder
+
