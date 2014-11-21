@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res" >
+            <file
+                name="activity_puzzle"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/layout/activity_puzzle.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/values/arrays.xml"
+                qualifiers="" >
+                <array name="pictures" >
+                    <item>
+@drawable/a0
+                    </item>
+                    <item>
+@drawable/a1
+                    </item>
+                    <item>
+@drawable/a2
+                    </item>
+                    <item>
+@drawable/a3
+                    </item>
+                    <item>
+@drawable/a4
+                    </item>
+                    <item>
+@drawable/a5
+                    </item>
+                    <item>
+@drawable/a6
+                    </item>
+                    <item>
+@drawable/a7
+                    </item>
+                    <item>
+@drawable/a8
+                    </item>
+                    <item>
+@drawable/a9
+                    </item>
+                    <item>
+@drawable/a10
+                    </item>
+                    <item>
+@drawable/a11
+                    </item>
+                    <item>
+@drawable/a12
+                    </item>
+                    <item>
+@drawable/a13
+                    </item>
+                    <item>
+@drawable/a14
+                    </item>
+                    <item>
+@drawable/a15
+                    </item>
+                </array>
+            </file>
+            <file
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.NoActionBar.Fullscreen" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Puzzle
+                </string>
+            </file>
+            <file
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                name="puzzle"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/menu/puzzle.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="a7"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a7.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a9"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a9.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a11"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a11.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a5"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a5.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a2"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a2.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a12"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a12.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a3"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a3.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a14"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a14.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a13"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a13.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a15"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a15.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a8"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a8.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a6"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a6.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a10"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a10.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a4"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a4.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a1"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a1.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="a0"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xhdpi/a0.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="/home/georgi/AndroidStudioProjects/Puzzle/app/build/generated/res/rs/debug" />
+        <source path="/home/georgi/AndroidStudioProjects/Puzzle/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/georgi/AndroidStudioProjects/Puzzle/app/src/debug/res" />
+    </dataSet>
+
+</merger>
