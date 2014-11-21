@@ -12,7 +12,7 @@ Format (using regex notation):
 - set the alarm: `[0-9][0-9]:[0-9][0-9]` (for instance 05:30) 
 
 Hints and clues (important!):
-- If you want to **call**, press the call button and **prepend the userinput with `tel:`**
+- If you want to **call**, press the call button and **prepend the user input with `tel:`**
 - If you want to **open** a website, **prepend the user input with `https://`**
 - You will need a looot of permissions here. 
 - You will need to search for the relevant intent "action" here. Some of them are **static fields** in `Intent`, but others are not - for instance, see the static field actions in `AlarmClock`... you might need one of them
