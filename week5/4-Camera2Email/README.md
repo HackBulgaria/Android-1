@@ -14,5 +14,6 @@ Go back in time and create an Android application that:
 - A photo must be taken and send to an email with **no more than 2 user interactions**
 - Bonus: **No more than 1 user interaction :)** - use Java Mail API - javax.mail 
  
-
+Hints:
+- See this Android training: http://developer.android.com/training/camera/index.html
  
