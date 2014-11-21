@@ -1,7 +1,7 @@
 ### Multiple Activities
-
-Create google-like multifield:
 ![Imgur](http://i.imgur.com/vSiW47v.png)
+
+Create google-like multifield:  
 
 The users enter information and chooses what to do with it:
 He can make a call, open a web browser, or set the alarm clock.
