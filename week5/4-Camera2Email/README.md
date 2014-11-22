@@ -11,8 +11,8 @@ You need to help him.
 Go back in time and create an Android application that:
 - When launched, goes **directly** in *Camera* application.
 - When a photo is taken, it goes **directly** to *email* application and adds the image as attachment. Email, text, and subject must be **preset**.
-- A photo must be taken and send to an email with **no more than 2 user interactions**
-- Bonus: **No more than 1 user interaction :)** - use Java Mail API - javax.mail 
+- A photo must be taken and send to an email with **no more than 3 user interactions**
+- Bonus: **No more than 2 user interaction :)** - use Java Mail API - javax.mail 
  
 Hints:
 - See this Android training: http://developer.android.com/training/camera/index.html
