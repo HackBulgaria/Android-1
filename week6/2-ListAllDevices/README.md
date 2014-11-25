@@ -1,5 +1,7 @@
 #### Bluetooth Hello World (BroadcastReceiver)
 
+![Imgur](http://i.imgur.com/A3ZmSMh.png)
+
 This task is not an idiomatic service/broadcast one, but we thought you might want to check out the Bluetooth API. Also, you need to use a `BroadcastReceiver`. Bottom line => do the other task first!  
 
 We want you to list all available (and **visible**) Bluetooth devices in HackBulgaria's rooms : ) and display them in a `ListView`. Once more, we don't care about styling, glossiness and stuff - use the most common styles `TextView`'s if you have to.  
