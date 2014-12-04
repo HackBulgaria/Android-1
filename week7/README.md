@@ -12,3 +12,10 @@ Questions to think about:
 - How much "safer" do you feel from SQL injections, now that you've witnessed some examples of the DB layer?
 - Why do you think so many years later on and we still don't have a nice [Fluent Interface](http://en.wikipedia.org/wiki/Fluent_interface) in Android?
 - Explain the difference between PHP's `mysql_query(...random_string...)` approach and  `db.execQuery(...randomString...)` in Android
+
+------------------------
+### Sensors API 
+- Read the Sensors guide here   
+http://developer.android.com/guide/topics/sensors/sensors_overview.html
+
+
